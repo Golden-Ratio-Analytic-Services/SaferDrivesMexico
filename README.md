@@ -2,6 +2,7 @@
 
 <h3 align="center">Description</h3>
 **Application Name** is meant to allow users to avoid high risk zones traveling within and through Mexico.
+
 - Feature 1 with relate related skill or technological value
 - Feature 2 with relate related skill or technological value
 - Scrapes -twitter/facebook/etc/generic - in order to determine high risk zones based on key phrases in (database types) using (insert tool here).
