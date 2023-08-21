@@ -10,6 +10,9 @@
 
 ## Resources:
 - Database [neo4j](https://neo4j.com/cloud/platform/aura-graph-database/)
-- 
+- Map Library [leaflet](https://leafletjs.com/examples/quick-start/)
+    - github library [here](https://github.com/Leaflet/Leaflet)
+    
 #### **style:** 
+
 #### **helpful hint:** 
