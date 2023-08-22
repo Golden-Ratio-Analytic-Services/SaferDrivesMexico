@@ -3,7 +3,7 @@
 <h3 align="center">Description</h3>
 **Application Name** is meant to allow users to avoid high risk zones traveling within and through Mexico.
 
-- Leaflet map for visualizing your low risk route. 
+- Leaflet map for visualizing your low risk route, using - insert here - 
 - Feature 2 with relate related skill or technological value
 - Scrapes -twitter/facebook/etc/generic - in order to determine high risk zones based on key phrases in (database types) using (insert tool here).
 - User's enter their start and end destination, travel method and the application provides a route that includes risk weighted routing options. 
