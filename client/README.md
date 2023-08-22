@@ -68,23 +68,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-### Front-End Helpful Hints 
-- confirm that config is appropriate:
-```
-> node -v
-> npm -v
-> git --version
-```
-
-- Initial package.json & install dependenies(localhost:3000):
-    - Must be `cd`'d into frontend/client for install
-    - MUI, etc... (see resources)
-```
-> npx create-react-app <project name>
-> cd <project name>
-> npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
-> npm install --save react-router-dom
-```
-- Test front-end once pages are generated (ctrl-c to exit):
-```

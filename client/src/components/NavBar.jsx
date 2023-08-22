@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 
 
 function NavBar (){
-
    
     return (
         <Box className={classes.header}>
@@ -14,9 +13,6 @@ function NavBar (){
           <ul>
             <li>
               <Link href='/'>Link 1</Link>
-            </li>
-            <li>
-              <Link href='/home'>Link 2</Link>
             </li>
           </ul>
         </nav>
