@@ -3,17 +3,22 @@ import { useState } from "react";
 import { Box } from "@mui/material";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { Icon } from 'leaflet';
 import osm from "../uti/osm-providers";
-import PlaceIcon from '@mui/icons-material/Place';
-import './Home.css';
-import 'leaflet/dist/leaflet.css';
+import "./Home.css";
+import "leaflet/dist/leaflet.css";
+
 
 function HomePage() {
-  const [center, setCenter] = useState({ lat: 23.453379, lng: -102.532609 });
+  const [center, setCenter] = useState({ lat: 24.453379, lng: -102.532609 });
   const ZOOM_LEVEL = 5;
 
- 
+  const newIcon = new Icon({
+    iconUrl: 
+    'https://as2.ftcdn.net/v2/jpg/02/98/28/57/1000_F_298285715_ct4qtZOJH119A39TdMrbkLsfziVCX1Rz.jpg',
+    iconSize: [20,20]
+  });
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -65,7 +70,7 @@ function HomePage() {
                 sx={{ mt: 3, mb: 2 }}
                 color="success"
               >
-               Submit
+                Submit
               </Button>
             }
           </Box>
@@ -81,18 +86,16 @@ function HomePage() {
               attribution={osm.maptiler.attribution}
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            <Marker position={center} >
+            <Marker position={[center.lat, center.lng]} icon={newIcon}>
               <Popup>
-                Welcome To Mexico!
+                Welcome to Mexico!
               </Popup>
             </Marker>
           </MapContainer>
         </Box>
-
       </Box>
-      <Box>
-        Generic Test here
-      </Box>
+      <hr />
+      <Box>Tabs: for Threat-Considerations, most common on your trip, generic helpful hints</Box>
     </Box>
   );
 }

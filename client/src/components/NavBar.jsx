@@ -8,11 +8,11 @@ function NavBar (){
    
     return (
         <Box className={classes.header}>
-        <div className={classes.logo}>Safer Drive Mexico</div>
+        <Link to="/" className={classes.logo} >Safer Drive Mexico</Link>
         <nav>
           <ul>
             <li>
-              <Link href='/'>Link 1</Link>
+              <Link to='/info'>Info</Link>
             </li>
           </ul>
         </nav>

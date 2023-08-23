@@ -9,7 +9,7 @@
   }
   
   .logo {
-    font-size: 2rem;
+    font-size: 7rem;
     color: white;
     font-weight: bold;
   }
@@ -36,4 +36,5 @@
   .header a:active,
   .header a.active {
     color: rgb(0, 99, 65);
+    text-shadow: rgba(255, 255, 255, 0.5) 1px 1px 1px;
   }
