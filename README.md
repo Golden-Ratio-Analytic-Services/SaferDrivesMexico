@@ -59,5 +59,6 @@
 #### **helpful hint:** 
 - [CSS modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/) to allow styles to be treated like objects.
 - Leaflet React styling must be done with traditional CSS sheets
-    - leaflet map has its own classes assigned that are not visiable in the react code.
+    - leaflet map has its own classes assigned that cannot be seen in React
+    - Additional styling source [here](https://medium.com/yavar/react-leaflet-map-3b2d53f97368)
 
