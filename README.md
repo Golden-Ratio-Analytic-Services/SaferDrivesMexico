@@ -1,12 +1,18 @@
 <h1 align="center">Safer Drives Mexico</h1>
 
 <h3 align="center">Description</h3>
-**Application Name** is meant to allow users to avoid high risk zones traveling within and through Mexico.
+**Safer Drives Mexico** is meant to allow users to avoid high risk zones traveling within and through Mexico.
 
+
+- Client side (*frontend*) utilizes ***React.js*** & ***react-router-dom*** in combination with ***Material MUI*** create themes to provide cohesive structure. 
 - Leaflet map for visualizing your low risk route, using - insert here - 
-- Feature 2 with relate related skill or technological value
 - Scrapes -twitter/facebook/etc/generic - in order to determine high risk zones based on key phrases in (database types) using (insert tool here).
 - User's enter their start and end destination, travel method and the application provides a route that includes risk weighted routing options. 
+
+## Technology Stack
+- **Frontend/Client:** React.js, MUI, CSS
+- **API:** Leaflet
+- **Backend/Server:**  DB, Node.js 
 
 ## Run Code (Environment)
 
