@@ -1,6 +1,7 @@
 <h1 align="center">Safer Drives Mexico</h1>
 
 <h3 align="center">Description</h3>
+
 **Safer Drives Mexico** is meant to allow users to avoid high risk zones traveling within and through Mexico.
 
 
