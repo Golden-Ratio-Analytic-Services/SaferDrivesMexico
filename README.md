@@ -2,11 +2,11 @@
 
 <h3 align="center">Description</h3>
 
-**Safer Drives Mexico** is meant to allow users to avoid high risk zones traveling within and through Mexico.
+**Safer Drives Mexico** is a mapping or routing application meant to allow users to avoid high risk zones traveling within and through Mexico. The objective is to allow users to avoid high risk social behavior to allow for a more enjoyable and safer trip. 
 
 
 - Client side (*frontend*) utilizes ***React.js*** & ***react-router-dom*** in combination with ***Material MUI*** create themes to provide cohesive structure. 
-- Leaflet map for visualizing your low risk route, using - insert here - 
+- ***Leaflet map*** for visualizing low risk route in the desired geographical region. 
 - Scrapes -twitter/facebook/etc/generic - in order to determine high risk zones based on key phrases in (database types) using (insert tool here).
 - User's enter their start and end destination, travel method and the application provides a route that includes risk weighted routing options. 
 
@@ -42,6 +42,7 @@
 
 ## Resources:
 - Database [neo4j](https://neo4j.com/cloud/platform/aura-graph-database/)
+    - 
 - Map Library Leaflet [original.JS](https://leafletjs.com/examples/quick-start/)
     - github library [here](https://github.com/Leaflet/Leaflet)
     - React Leaflet [here](https://react-leaflet.js.org/docs/start-installation/) `npm install react-leaflet`
