@@ -68,7 +68,7 @@
     - React Leaflet [here](https://react-leaflet.js.org/docs/start-installation/) `npm install react-leaflet`
     - MapTiler [here](https://www.maptiler.com/) (optional)
 - MapQuest Developer [here](https://developer.mapquest.com/)
-- Docker install info [here] (https://www.docker.com/):
+- Docker install info [here](https://www.docker.com/):
     - docker image base [here](https://hub.docker.com/_/node/tags?page=1&name=18)
 
 #### **style:** 
