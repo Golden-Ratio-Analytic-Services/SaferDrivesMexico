@@ -40,14 +40,36 @@
 > npm run start
 ```
 
+### Docker Helpful Hints 
+- generate a dockerfile (see resources)
+- build and run docker
+```
+> cd <project name>
+> docker build -t <app name> .
+> docker run -p 3000:3000 app
+```
+- close docker by entering a new terminal
+```
+> docker ps
+```
+     - idenfity the Container ID
+ ```    
+> docker stop <container_id>
+> docker rn <container_id>
+```
+
+
+
 ## Resources:
 - Database [neo4j](https://neo4j.com/cloud/platform/aura-graph-database/)
-    - 
+    - additional resources [here]
 - Map Library Leaflet [original.JS](https://leafletjs.com/examples/quick-start/)
     - github library [here](https://github.com/Leaflet/Leaflet)
     - React Leaflet [here](https://react-leaflet.js.org/docs/start-installation/) `npm install react-leaflet`
     - MapTiler [here](https://www.maptiler.com/) (optional)
 - MapQuest Developer [here](https://developer.mapquest.com/)
+- Docker install info [here] (https://www.docker.com/):
+    - docker image base [here](https://hub.docker.com/_/node/tags?page=1&name=18)
 
 #### **style:** 
 - **[Material UI CORE](https://mui.com/)** React UI LIBRARY *great for standardizing projects*
