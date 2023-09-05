@@ -69,7 +69,9 @@
     - MapTiler [here](https://www.maptiler.com/) (optional)
 - MapQuest Developer [here](https://developer.mapquest.com/)
 - Docker install info [here](https://www.docker.com/):
+    - Dockerizing info [here](https://mherman.org/blog/dockerizing-a-react-app/) and [here](https://iws.io/2021/dockerize-create-react-app)
     - docker image base [here](https://hub.docker.com/_/node/tags?page=1&name=18)
+    - current version `v2.18.1`
 
 #### **style:** 
 - **[Material UI CORE](https://mui.com/)** React UI LIBRARY *great for standardizing projects*
