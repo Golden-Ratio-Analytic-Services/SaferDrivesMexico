@@ -40,7 +40,7 @@ const About= () => {
             {tabValue === 'dylan' && (<div><p align='justify'>Insert bio here 3 of 4</p></div>)}
             {tabValue === 'nelson' && (<div><p align='justify'>Nelson was inspired to transition into software development after doing neuroscience at a top machine learning company.
             After working with incredibly positive innovative engineers, 
-            Nelson was inspired and encouraged to pivot into software development. 
+            Nelson was encouraged to pivot into software development. 
             Nelson love solution oriented teams that empower people and support diversity.</p></div>)}
         </Box>
     
