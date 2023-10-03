@@ -79,7 +79,7 @@
     - MUI template pages [here](https://mui.com/material-ui/getting-started/templates/)
     - MUI Theme [here](https://mui.com/material-ui/customization/theming/)
     - React Box [here](https://mui.com/material-ui/react-box/) & Grid [here](https://mui.com/material-ui/react-grid/)
-    - Material Tabs [here](https://mui.com/material-ui/react-tabs/)
+    - Material Tab and Tabs [here](https://mui.com/material-ui/react-tabs/)
     - Material Icon Info & Import links [here](https://mui.com/material-ui/material-icons/)
     ```
     npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
