@@ -95,7 +95,7 @@ function HomePage() {
         </Box>
       </Box>
       <hr />
-      <Box>Tabs: for Threat-Considerations, most common on your trip, generic helpful hints</Box>
+      <Box>This Web application was inspired by MEXICO PEACE INDEX 2022 in order to encourage a safer driving experience in highrisk zones.</Box>
     </Box>
   );
 }
