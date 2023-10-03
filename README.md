@@ -13,7 +13,7 @@
 ## Technology Stack
 - **Frontend/Client:** React.js, MUI, CSS
 - **API:** Leaflet
-- **Backend/Server:**  DB, Node.js 
+- **Backend/Server:**  Neo4j, Node.js 
 
 ## Run Code (Environment)
 
@@ -79,6 +79,7 @@
     - MUI template pages [here](https://mui.com/material-ui/getting-started/templates/)
     - MUI Theme [here](https://mui.com/material-ui/customization/theming/)
     - React Box [here](https://mui.com/material-ui/react-box/) & Grid [here](https://mui.com/material-ui/react-grid/)
+    - Material Tabs [here](https://mui.com/material-ui/react-tabs/)
     - Material Icon Info & Import links [here](https://mui.com/material-ui/material-icons/)
     ```
     npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
@@ -87,6 +88,9 @@
     - MUI Alert [here](https://mui.com/material-ui/react-alert/)
     - MUI with CSS Modules style library [here](https://mui.com/material-ui/guides/interoperability/)
     - Additional fun in grid-template-columns [here](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns)
+
+#### **additional info:**
+- Mexico Peace index [2022](https://www.visionofhumanity.org/wp-content/uploads/2022/05/ENG-MPI-2022-web.pdf)
 
 #### **helpful hint:** 
 - [CSS modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/) to allow styles to be treated like objects.
