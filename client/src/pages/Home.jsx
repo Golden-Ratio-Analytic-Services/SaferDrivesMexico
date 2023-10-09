@@ -12,6 +12,7 @@ import "leaflet/dist/leaflet.css";
 
 function HomePage() {
   const [center, setCenter] = useState({ lat: 24.453379, lng: -102.532609 });
+  const [path, setPath] = useState({});
   const ZOOM_LEVEL = 5;
 
   const newIcon = new Icon({
@@ -95,7 +96,7 @@ function HomePage() {
         </Box>
       </Box>
       <hr />
-      <Box>This Web application was inspired by MEXICO PEACE INDEX 2022 in order to encourage a safer driving experience in highrisk zones.</Box>
+      <Box>Consider Map Instructions: This Web application was inspired by MEXICO PEACE INDEX 2022 in order to encourage a safer driving experience in highrisk zones.</Box>
     </Box>
   );
 }

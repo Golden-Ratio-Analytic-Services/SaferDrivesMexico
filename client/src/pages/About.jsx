@@ -36,12 +36,14 @@ const About= () => {
         </Box>
             <Box display='flex' flexWrap="wrap" gap="15px">
             {tabValue === 'thomas' && (<div><p align='justify'>Insert bio here 1 of 4</p></div>)}
-            {tabValue === 'dennis' && (<div><p align='justify'>Insert bio here 2 of 4</p></div>)}
+            {tabValue === 'dennis' && (<div><p align='justify'>Dennis is passionate about entrepreneurship and emerging technologies, particularly in the area of distributed storage,
+             complex system, artificail intelligence and spatial analytics. He has observed a growing interest in utilizing artificial intelligence, distributed storage and processing
+             to provide competitive advantage and solutions for businesses.</p></div>)}
             {tabValue === 'dylan' && (<div><p align='justify'>Insert bio here 3 of 4</p></div>)}
-            {tabValue === 'nelson' && (<div><p align='justify'>Nelson was inspired to transition into software development after doing neuroscience at a top machine learning company.
-            After working with incredibly positive innovative engineers, 
-            Nelson was encouraged to pivot into software development. 
-            Nelson love solution oriented teams that empower people and support diversity.</p></div>)}
+            {tabValue === 'nelson' && (<div><p align='justify'>Nelson is an incredibly enthusiastic Associate Software Developer with experience in full-stack development 
+            and a strong background in cellular systems research. Skilled in Python, JavaScript, and R, with expertise in frameworks such as Flask and React.js. She is committed 
+            to delivering high-quality code and collaborating effectively with cross-functional teams. 
+            She loves solution oriented teams that empower people and support diversity.</p></div>)}
         </Box>
     
 
