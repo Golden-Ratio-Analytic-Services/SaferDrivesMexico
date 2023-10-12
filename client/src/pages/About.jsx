@@ -1,6 +1,6 @@
 import { Box, Tabs, Tab } from "@mui/material";
 import { useState } from "react";
-import { green } from '@mui/material/colors'
+import { green } from '@mui/material/colors';
 
 
 const About= () => {
